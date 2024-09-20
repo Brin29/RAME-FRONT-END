@@ -1,0 +1,108 @@
+/* src/PerfilUsuario.css */
+.perfil-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.perfil-header {
+  background-color: #de8ca2;
+  color: white;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+}
+
+.perfil-layout {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+.acciones-adicionales {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 313px;
+  margin-right: 10px;
+}
+
+.acciones-adicionales button {
+  background-color: #de8ca2;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.acciones-adicionales button:hover {
+  background-color: #ecc8d1;
+}
+
+.perfil-main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.perfil-info {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.info-adicional {
+  background-color: #fff;
+  padding: 15px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 0 auto; /* Centra el contenedor */
+  max-width: 6000px; /* Establece un máximo ancho */
+  width: 100%; /* Ocupa el 100% del ancho del contenedor principal */
+}
+
+.ver-info p,
+.editar-info input {
+  margin-bottom: 25px;
+}
+
+.editar-info input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.guardar-button,
+.editar-button {
+  background-color: #7c7a7a;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.guardar-button:hover,
+.editar-button:hover {
+  background-color: #5f6368;
+}
+
+.editar-info .editar-button {
+  margin-top: 20px;
+}
